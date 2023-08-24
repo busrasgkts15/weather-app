@@ -1,0 +1,67 @@
+.card {
+    height: 100%;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 7%;
+    background: #0c0909be;
+    width: 300px;
+}
+
+.button {
+    border: 2px solid rgb(68, 68, 68) !important;
+    background: transparent;
+}
+
+
+.actions > select {
+    margin: 10px 0px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    background: rgba(0, 0, 0,0.3);
+    color: #fff;
+
+}
+
+option {
+  background: rgb(53, 53, 53);
+}
+
+
+img {
+    position: relative;
+    top: -150px;
+    width: 100%; 
+    animation: moveImage 2s infinite;
+}
+
+select {
+    position: relative;
+    top: -5rem;
+}
+
+
+@keyframes moveImage {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

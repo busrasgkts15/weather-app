@@ -1,0 +1,13 @@
+<router-outlet></router-outlet>
+<div class="card" id="card" *ngIf="!showWeather">
+  <form class="actions">
+    <img
+      src="https://img3.pngindir.com/dy/a3fb6fb2958158b6ed21b3c6cc646187/L0KzQYm3U8IxN6R4iZH0aYP2gLBuTgdmaaVtfeQ2ZnB1dbTokCRqdpgyitNybj3mfLr3TfFzfF55itN3c4Dkgrb1lL14bZJ5gNd7LXPvecHokwR0NWZmeqMEZEezQ4bohPQ6NmQ7UKs8M0S0QYa5UcU5QWc2TqQ6OUmxgLBu/kisspng-weather-forecasting-rain-clip-art-transparent-weather-cliparts-5ab19d7035add9.3689334115215896162199.png"
+      alt="">
+    <select class="button" (change)="getWeather($event)">
+      <option disabled selected value="">Please select</option>
+      <option class="options" *ngFor="let city of cities">{{city}}</option>
+    </select>
+  </form>
+</div>
+<app-weather *ngIf="showWeather" [weatherControl]="weatherData"></app-weather>

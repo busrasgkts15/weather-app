@@ -1,0 +1,87 @@
+.card1 {
+    position: relative;
+    height: 100%;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+
+.custom-link {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: -3px;
+}
+
+.actions2 {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    background:#0c0909be;
+    border-radius: 7%;
+    width: 300px;
+    height: 520px;
+}
+
+.actions > select {
+    margin: 10px 0px;
+    border: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    background: #212121;
+    color: #fff;
+
+}
+
+
+.date {
+    font-size: 13px;
+}
+
+.westher {
+    position: relative;
+    font-size: 13px;
+    top: -140px;
+    display: flex;
+    justify-content: space-between; /* İçerikleri aralarında eşit uzaklık bırakacak */ 
+   align-items: center; /* İçerikleri dikeyde ortalar */
+}
+
+.westher h4 {
+    font-size: 18px;
+} 
+      
+.temp_min,
+.temp_max
+{
+    flex: 1; /* İçerikleri eşit genişlikte paylaşacak */
+    text-align: center;
+    }
+
+.wind {
+    position: relative;
+    top: -140px;
+    border: 2px hidden;
+
+}
+
+img {
+    position: relative;
+    top: -150px;
+    clip-path:ellipse();
+    
+}
+
+
+.hava {
+    position: relative;
+    top: -150px;
+    font-size: 15px;
+}
+

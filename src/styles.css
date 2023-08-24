@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+  
+    background: url(https://images.pexels.com/photos/17593660/pexels-photo-17593660.jpeg?cs=srgb&dl=pexels-outlaw-design-studio-17593660.jpg&fm=jpg&w=1920&h=2560&_gl=1*1bybf79*_ga*MTM3NzI1MTE1OS4xNjkxNDkyOTc0*_ga_8JE65Q40S6*MTY5MTUwNDk4Ny4yLjEuMTY5MTUwNTE2Ny4wLjAuMA..);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0;
+
+}
+
